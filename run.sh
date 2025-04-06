@@ -6,4 +6,4 @@ QEMU=qemu-system-riscv32
 
 # Start QEMU
 $QEMU -machine virt -bios default -nographic -serial mon:stdio --no-reboot \
- -kernel ./target/riscv32i-unknown-none-elf/debug/rust-os
+ -kernel ./target/riscv32i-unknown-none-elf/debug/ferrox

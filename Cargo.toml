@@ -1,11 +1,11 @@
 [package]
-name = "rust-os"
+name = "ferrox"
 version = "0.1.0"
 edition = "2024"
 
 [[bin]]
 path = "src/kernel.rs"
-name = "rust-os"
+name = "ferrox"
 
 [profile.dev]
 panic = "abort"
